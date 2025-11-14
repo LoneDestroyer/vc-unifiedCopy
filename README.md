@@ -6,15 +6,19 @@
   </a>
 
 <!--<h3 align="center">UnifiedCopy</h3>-->
-<p align="center">Brings Discord mobile-style copying to desktop</p>
+<p align="center">Brings Discord's mobile-style copying to desktop</p>
 </div>
 
 ## Features
 - Click to copy
-    - Embed Fields
-    - Inline code:: (`like this`)
+  - Embed fields
+  - Inline code (single backticks)
+  - Multiline code blocks (tripple backticks)
+
 - "Copied!" Tooltip and a soft highlight so you know it worked
+
 - Retains markdown of copied fields
+  - vc-shikiCodeblocks compatibility: ignores button labels, copies only code lines
 
 ## Install
 [UserPlugin Install Guide](https://docs.vencord.dev/installing/custom-plugins/)
