@@ -9,7 +9,7 @@ import definePlugin from "@utils/types";
 // Finds the closest parent that matches one of the specified selectors.
 // Extend the selectors array to support new clickable regions.
 function getUnifiedCopyTarget(target: HTMLElement): HTMLElement | null {
-    const selectors = ["code.inline", "div[class*='embedFieldValue']"];
+    const selectors = ["code.inline", "div[class*='embedFieldValue']", "div[class*='embedDescription']"];
     for (const selector of selectors) {
         const el = target.closest(selector);
         if (el) return el as HTMLElement;
